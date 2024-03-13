@@ -9,7 +9,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 - **High Resolution Interface Capture**: Utilizes the isoAdvector method for high-resolution interface capturing, ensuring accurate representation of fluid interfaces and minimizing numerical diffusion.
 - **Taylor Cone Jet Dynamics**: Focused on simulating the dynamics of Taylor cone jets, a common phenomenon in electrohydrodynamics.
 - **Automatic Mesh Generation**: Provides both automatic 2D axisymmetric and full 3D mesh generation with SnappyHexMesh in the tutorial folder.
-- **Custom Solvers and Library**: Includes the interIsoFoamEHD solver in the `applications/solvers` folder and a library for immiscible two-phase flow in the `src/` folder.
+- **Custom Solvers and Library**: Includes the interIsoFoamEHD solver in the `model/applications/solvers` folder and a library for immiscible two-phase flow in the `model/src/` folder.
 
 ## Usage:
 1. Clone this repository to your local machine.
