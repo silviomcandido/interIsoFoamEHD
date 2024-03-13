@@ -1,5 +1,5 @@
-# TaylorConeJet
-Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simulation of a Taylor Cone Jet
+# Taylor Cone Jet EHD
+Automated script using .m4 files to generate a 2D axis-symmetric (one ore more stages of acceleration) or Full 3D simulation of a Taylor Cone Jet
 
 Overview
 ========
