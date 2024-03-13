@@ -17,32 +17,24 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 4. Run the simulation using standard OpenFOAM utilities.
 5. Post-process the results using visualization tools compatible with OpenFOAM.
 
-## Structure
-High-Resolution-Two-Phase-Electrohydrodynamic-Solver/
-├── applications/
-│ └── solvers/
-│ └── interIsoFoamEHD/
-│ └── (source files for the interIsoFoamEHD solver)
-│
-├── src/
-│ └── (source files for the custom library)
-│
-├── tutorials/
-│ ├── 2D_axisymmetric/
-│ │ ├── case_files/
-│ │ └── system_files/
-│ ├── 3D_mesh/
-│ │ ├── case_files/
-│ │ └── system_files/
-│ └── (other tutorial cases)
-│
-├── build/
-│ └── (compiled binaries)
-│
-├── LICENSE
-└── README.md
+## Directory Structure:
 
-vbnet
+- **applications/**
+  - **solvers/**
+    - **interIsoFoamEHD/**
+      - (source files for the interIsoFoamEHD solver)
+
+- **src/**
+  - (source files for the custom library)
+
+- **tutorials/**
+  - **2D_axisymmetric/**
+    - **case_files/**
+    - **system_files/**
+  - **3D_mesh/**
+    - **case_files/**
+    - **system_files/**
+  - (other tutorial cases)
 
 
 ## Contribution:
