@@ -27,7 +27,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
       - **interIsoFoamEHD/**
   - **src/**
 
-- **tutorials/**
+- **Taylor-Cone-Jet-EHD/**
   - **2D_axisymmetric/**
     - **case_files/**
     - **system_files/**
