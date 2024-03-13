@@ -36,6 +36,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
     - **solvers/**
       - **interIsoFoamEHD/**
   - **src/**
+    - **libimmiscibleIncompressibleTwoPhaseEHDMixture/**
 
 - **Taylor-Cone-Jet-EHD/**
   - **2D_axisymmetric/**
