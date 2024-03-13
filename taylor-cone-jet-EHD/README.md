@@ -16,7 +16,8 @@ Meshing of the 2D Axisymmetric
 + Set the number of cells in the length and radial directions
 + Run blockMesh to generate a 2D "domain" mesh
 + Run extrudeMesh to convert the mesh into a 2D axisymmetric mesh with wedge
-  front and back patches
+  front and back patches ![Esquema_BCs](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/24092a0f-8b3f-4411-9a3c-a2ccd4409522)
+
 
 Initialisation
 ==============
