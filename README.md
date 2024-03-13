@@ -38,7 +38,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
  
 | Test Case       | Abstract Image                                   |
 |------------------|-----------------------------------------|
-| Base Taylor Cone 2D Axissymmetric           | <img src="images/Base-2D.png" width="500"/>  |
+| [Base Taylor Cone 2D Axissymmetric](taylor-cone-jet-EHD/Taylor-Cone-Jet-2D)            | <img src="images/Base-2D.png" width="500"/>  |
 | Multi-Stage Axial Acceleration           | <img src="images/Fig_Acceleration.png" width="500"/>|
 | Test 3           | ![Test 3 Image](path/to/test3/image.png)|
 
