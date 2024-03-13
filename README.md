@@ -25,7 +25,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 ## Directory Structure:
 
 - **model/**
-  - (source files for the interIsoFoamEHD solver)
+ (source files for the interIsoFoamEHD solver)
   - **applications/**
     - **solvers/**
       - **interIsoFoamEHD/**
