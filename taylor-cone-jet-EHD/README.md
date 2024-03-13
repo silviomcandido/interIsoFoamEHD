@@ -16,14 +16,22 @@ Meshing of the 2D Axisymmetric
 + Set the number of cells in the length and radial directions
 + Run blockMesh to generate a 2D "domain" mesh
 + Run extrudeMesh to convert the mesh into a 2D axisymmetric mesh with wedge
-  front and back patches ![Esquema_BCs](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/24092a0f-8b3f-4411-9a3c-a2ccd4409522)
+  front and back patches
+  ![Esquema_BCs](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/24092a0f-8b3f-4411-9a3c-a2ccd4409522)
+
+Meshing of the 3D Model
+=======
++ The blockMeshDict file contains a backgroundMesh subditionary
+
+
+![Esquema_BCs_3D](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/a819f786-b48c-4bb7-a16f-ad600bd86e80)
 
 
 Initialisation
 ==============
 + In the field files in the 0 directory, set inlet values
 + For example, in 0/U, set the inlet velocity Uinlet
-+ Set the electrohydrodynamic properties in constant/transportProperties
++ Set the electrohydrodynamic properties in constant/transportProperties (or update in the Allrun.sh file for the liquid properties)
 
 Output
 ======
