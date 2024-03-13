@@ -20,9 +20,6 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 ## Contribution:
 Contributions to this project are welcome! Whether it's bug fixes, enhancements, or new features, feel free to submit pull requests or open issues to discuss potential improvements.
 
-## License:
-This project is licensed under the [MIT License](LICENSE), allowing for both personal and commercial use with proper attribution.
-
 ## Citation:
 If you use this solver in your research or work, please cite the following papers:
 - [1] S. Cândido and J. C. Páscoa, "On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets", International Journal of Engineering Science, Volume 193, 2023, 103947, ISSN 0020-7225, https://doi.org/10.1016/j.ijengsci.2023.103947.
@@ -30,5 +27,9 @@ If you use this solver in your research or work, please cite the following paper
 
 ## Authors:
 This solver was developed by Sílvio Cândido and José C. Páscoa under the academic supervision of the University of Beira Interior, with support from the C-MAST Center for Mechanical and Aerospace Science and Technologies and the FCT Portuguese Foundation for Science and Technology.
+
+
+## License:
+This project is licensed under the [MIT License](LICENSE), allowing for both personal and commercial use with proper attribution.
 
 
