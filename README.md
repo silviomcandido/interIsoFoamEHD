@@ -1,4 +1,4 @@
-# interIsoFoamEHD: High-Resolution Two-Phase Electrohydrodynamic Solver for OpenFOAM
+# High-Resolution Two-Phase Electrohydrodynamic Solver for OpenFOAM
 
 This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-phase electrohydrodynamic (EHD) flows with high resolution, focusing on Taylor cone jet dynamics. The solver is based on the interIsoFoamEHD solver and incorporates the isoAdvector interface capturing method to ensure precise representation of fluid interfaces. It is capable of simulating systems involving two immiscible mediums with low conductivities.
 
