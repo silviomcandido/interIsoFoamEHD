@@ -29,5 +29,6 @@ If you use this solver in your research or work, please cite the following paper
 - [2] S. Cândido and J. C. Páscoa, "Dynamics of three-dimensional electrohydrodynamic instabilities on Taylor cone jets using a numerical approach", Physics of Fluids 1 May 2023; 35 (5): 052110. https://doi.org/10.1063/5.0151109 
 
 ## Authors:
-This solver was developed by Sílvio Cândido and José C. Páscoa under the academic supervision of the University of Beira Interior.
+This solver was developed by Sílvio Cândido and José C. Páscoa under the academic supervision of the University of Beira Interior, with support from the C-MAST Center for Mechanical and Aerospace Science and Technologies and the FCT Portuguese Foundation for Science and Technology.
+
 
