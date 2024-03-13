@@ -35,7 +35,9 @@ Initialisation
 
 Output
 ======
-+ Scripts in Python are used for postProcessing using the sampling utilities of OpenFOAM
++ Scripts in Python are used for postProcessing using the sampling utilities of OpenFOAM. Up to date two are avaiable:
+  - Read the mesh and isoSurface: "Taylor-Cone-Jet-2D/plotMesh.py"
+  - Coumpute the diameter of the droplets generated and give a histogram: "multi-stage-jet/calcHistogram.py"
 
 Cite
 ======
