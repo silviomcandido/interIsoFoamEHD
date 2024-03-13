@@ -9,7 +9,7 @@ Overview
   strategy for axisymmetric flow
 + These templates are intended to run with the solver interFoamEHD and interIsoFoamEHD developed by S. Cândido, if interested in the model please feel free to contact me!
 
-Meshing of the 2D Axisymmetric
+2D Axisymmetric Model
 =======
 + The blockMeshDict file contains a backgroundMesh subditionary
 + In backgroundMesh set the geometry radius and length and jet radius
@@ -19,7 +19,7 @@ Meshing of the 2D Axisymmetric
   front and back patches
   ![Esquema_BCs](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/24092a0f-8b3f-4411-9a3c-a2ccd4409522)
 
-Meshing of the 3D Model
+3D Model
 =======
 + The blockMeshDict file contains a backgroundMesh subditionary
 
