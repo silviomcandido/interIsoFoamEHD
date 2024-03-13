@@ -41,7 +41,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 | [Base Taylor Cone 2D Axissymmetric](taylor-cone-jet-EHD/Taylor-Cone-Jet-2D)            | <img src="images/Base-2D.png" width="80%"/>  |
 | [Multi-Stage Axial Acceleration](taylor-cone-jet-EHD/multi-stage-jet)            | <img src="images/Fig_Acceleration.png" width="80%"/>|
 | 3D Dynamics of EHD Jets  (soon)          | <img src="images/Fig_Whip2.png" width="80%"/>|
-| POD/DMD of EHD Fields  (soon)          | <img src="images/POD.png" width="80%"/>|
+| POD/DMD of EHD Fields  (soon)          | <img src="images/POD.PNG" width="80%"/>|
 
  
 ## Simulation of Taylor Cone Jets
