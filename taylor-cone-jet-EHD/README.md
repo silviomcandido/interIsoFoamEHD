@@ -35,8 +35,7 @@ Initialisation
 
 Output
 ======
-+ Graph data of field values along the centreline are written to files in
-  postProcessing/graph
++ Scripts in Python are used for postProcessing using the sampling utilities of OpenFOAM
 
 Cite
 ======
