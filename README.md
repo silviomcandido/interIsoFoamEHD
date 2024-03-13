@@ -36,6 +36,13 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
     - **system_files/**
   - (other tutorial cases)
  
+| Test Label       | Image                                   |
+|------------------|-----------------------------------------|
+| Test 1           | ![Test 1 Image](path/to/test1/image.png)|
+| Test 2           | ![Test 2 Image](path/to/test2/image.png)|
+| Test 3           | ![Test 3 Image](path/to/test3/image.png)|
+
+ 
 ## Simulation of Taylor Cone Jets
 
 Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simulation of a Taylor Cone Jet
