@@ -20,13 +20,12 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 
 ## Directory Structure:
 
-- **interIsoFoamEHD/**
+- **model/**
+- (source files for the interIsoFoamEHD solver)
   - **applications/**
     - **solvers/**
       - **interIsoFoamEHD/**
-      - (source files for the interIsoFoamEHD solver)
   - **src/**
-  - (source files for the custom library)
 
 - **tutorials/**
   - **2D_axisymmetric/**
