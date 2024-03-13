@@ -70,20 +70,15 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 Cite
 ======
 + 2D Axisymmetric and POD/DMD
-  + S. Cândido, J. C. Páscoa, On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets, International Journal of Engineering Science, 2023. https://doi.org/10.1016/j.ijengsci.2023.103947
+  [1] S. Cândido, J. C. Páscoa, On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets, International Journal of Engineering Science, 2023. https://doi.org/10.1016/j.ijengsci.2023.103947
 + Fully 3D study
-  + S. Cândido, J. C. Páscoa, Dynamics of three-dimensional electrohydrodynamic instabilities on Taylor cone jets using a numerical approach, Physics of Fluids, 2023. https://doi.org/10.1063/5.0151109
+  [2] S. Cândido, J. C. Páscoa, Dynamics of three-dimensional electrohydrodynamic instabilities on Taylor cone jets using a numerical approach, Physics of Fluids, 2023. https://doi.org/10.1063/5.0151109
 + Impact of the Coupled isoAdvector with interFoamEHD
-  + S. Cândido, J. C. Páscoa, Numerical Simulation of Electrified Liquid Jets Using a Geometrical VoF Method, International Mechanical Engineering Congress and Exposition, Virtual, Online. 2021 https://doi.org/10.1115/imece2021-69817
+  [3] S. Cândido, J. C. Páscoa, Numerical Simulation of Electrified Liquid Jets Using a Geometrical VoF Method, International Mechanical Engineering Congress and Exposition, Virtual, Online. 2021 https://doi.org/10.1115/imece2021-69817
 
 
 ## Contribution:
 Contributions to this project are welcome! Whether it's bug fixes, enhancements, or new features, feel free to submit pull requests or open issues to discuss potential improvements.
-
-## Citation:
-If you use this solver in your research or work, please cite the following papers:
-- [1] S. Cândido and J. C. Páscoa, "On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets", International Journal of Engineering Science, Volume 193, 2023, 103947, ISSN 0020-7225, https://doi.org/10.1016/j.ijengsci.2023.103947.
-- [2] S. Cândido and J. C. Páscoa, "Dynamics of three-dimensional electrohydrodynamic instabilities on Taylor cone jets using a numerical approach", Physics of Fluids 1 May 2023; 35 (5): 052110. https://doi.org/10.1063/5.0151109 
 
 ## Authors:
 This solver was developed by Sílvio Cândido and José C. Páscoa under the academic supervision of the University of Beira Interior, with support from the C-MAST Center for Mechanical and Aerospace Science and Technologies and the FCT Portuguese Foundation for Science and Technology.
