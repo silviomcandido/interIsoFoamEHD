@@ -3,7 +3,7 @@
 This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-phase electrohydrodynamic (EHD) flows with high resolution, focusing on Taylor cone jet dynamics. The solver is based on the interIsoFoamEHD solver and incorporates the isoAdvector interface capturing method to ensure precise representation of fluid interfaces. It is capable of simulating systems involving two immiscible mediums with low conductivities.
 
 ## Features:
-==============
+
 - **Two-phase Flow Simulation**: Capable of simulating the dynamics of two-phase flows, such as liquid-gas or liquid-liquid systems.
 - **Electrohydrodynamics (EHD)**: Incorporates EHD effects to account for the influence of electric fields on fluid flow and particle motion.
 - **High Resolution Interface Capture**: Utilizes the isoAdvector method for high-resolution interface capturing, ensuring accurate representation of fluid interfaces and minimizing numerical diffusion.
@@ -12,7 +12,6 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 - **Custom Solvers and Library**: Includes the interIsoFoamEHD solver in the `applications/solvers` folder and a library for immiscible two-phase flow in the `src/` folder.
 
 ## Usage:
-==============
 1. Clone this repository to your local machine.
 2. Compile the solver using the provided build scripts.
 3. Prepare your case setup, including mesh generation and boundary conditions.
@@ -20,7 +19,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 5. Post-process the results using visualization tools compatible with OpenFOAM.
 
 ## Directory Structure:
-==============
+
 - **interIsoFoamEHD/**
   - **applications/**
     - **solvers/**
@@ -38,8 +37,8 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
     - **system_files/**
   - (other tutorial cases)
  
-## TaylorConeJet
-==============
+## Simulation of Taylor Cone Jets
+
 Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simulation of a Taylor Cone Jet
 
 ### Overview
@@ -67,7 +66,6 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
   postProcessing/graph
 
 ## Cite
-======
 + 2D Axisymmetric and POD/DMD
  + [1] S. Cândido, J. C. Páscoa, On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets, International Journal of Engineering Science, 2023. https://doi.org/10.1016/j.ijengsci.2023.103947
 + Fully 3D study
