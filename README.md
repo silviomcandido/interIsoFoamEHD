@@ -38,7 +38,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
  
 | Test Label       | Image                                   |
 |------------------|-----------------------------------------|
-| Test 1           | ![Test 1 Image](path/to/test1/image.png)|
+| Base Taylor Cone 2D Axissymmetric           | ![Model2d - Cópia](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/da5506cf-95a7-4646-bb4b-936b761b1974) |
 | Test 2           | ![Test 2 Image](path/to/test2/image.png)|
 | Test 3           | ![Test 3 Image](path/to/test3/image.png)|
 
