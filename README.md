@@ -25,7 +25,7 @@ This project is licensed under the [MIT License](LICENSE), allowing for both per
 
 ## Citation:
 If you use this solver in your research or work, please cite the following papers:
-- [1] S. Cândido and J. C. Páscoa, "On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets", International Journal of Engineering Science, Volume 193, 2023, 103947, ISSN 0020-7225, 10.1016/j.ijengsci.2023.103947.
+- [1] S. Cândido and J. C. Páscoa, "On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets", International Journal of Engineering Science, Volume 193, 2023, 103947, ISSN 0020-7225, https://doi.org/10.1016/j.ijengsci.2023.103947.
 - [2] S. Cândido and J. C. Páscoa, "Dynamics of three-dimensional electrohydrodynamic instabilities on Taylor cone jets using a numerical approach", Physics of Fluids 1 May 2023; 35 (5): 052110. https://doi.org/10.1063/5.0151109 
 
 ## Authors:
