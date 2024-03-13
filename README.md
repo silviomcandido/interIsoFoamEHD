@@ -11,12 +11,6 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 - **Automatic Mesh Generation**: Provides both automatic 2D axisymmetric and full 3D mesh generation with SnappyHexMesh in the tutorial folder.
 - **Custom Solvers and Library**: Includes the interIsoFoamEHD solver in the `model/applications/solvers` folder and a library for immiscible two-phase flow in the `model/src/` folder.
 
-## Usage:
-1. Clone this repository to your local machine.
-2. Compile the solver using the provided build scripts.
-3. Prepare your case setup, including mesh generation and boundary conditions.
-4. Run the simulation using standard OpenFOAM utilities.
-5. Post-process the results using visualization tools compatible with OpenFOAM.
 
 ## Cases of Study
 
@@ -56,7 +50,14 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 + Template case for Full 3D EHD jet flow
 + The main purpose of this template is to demonstrate a simple, reliable meshing
   strategy for axisymmetric flow
-+ These templates are intended to run with the solver interFoamEHD and interIsoFoamEHD developed by S. Cândido, if interested in the model please feel free to contact me!
++ These templates are intended to run with the solver interIsoFoamEHD!
+
++ ## Usage:
+1. Clone this repository to your local machine.
+2. Compile the solver using the provided build scripts.
+3. Prepare your case setup, including mesh generation and boundary conditions.
+4. Run the simulation using standard OpenFOAM utilities.
+5. Post-process the results using visualization tools compatible with OpenFOAM. (Try our python scripts!)
 
 ### Meshing of the 2D Axisymmetric
 + The blockMeshDict file contains a backgroundMesh subditionary
