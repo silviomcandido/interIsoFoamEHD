@@ -39,7 +39,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
 | Test Label       | Image                                   |
 |------------------|-----------------------------------------|
 | Base Taylor Cone 2D Axissymmetric           | <img src="Base-2D.png" width="400"/>  |
-| Multi-Stage Axial Acceleration           | ![Fig_Acceleration - Cópia](https://github.com/silviomcandido/interIsoFoamEHD/assets/55400288/5f9a0e6c-c903-445a-8e83-af999e5dd259)|
+| Multi-Stage Axial Acceleration           | <img src="Fig_Acceleration.png" width="400"/>|
 | Test 3           | ![Test 3 Image](path/to/test3/image.png)|
 
  
