@@ -36,7 +36,7 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
     - **system_files/**
   - (other tutorial cases)
  
-| Test Label       | Image                                   |
+| Test Case       | Abstract Image                                   |
 |------------------|-----------------------------------------|
 | Base Taylor Cone 2D Axissymmetric           | <img src="images/Base-2D.png" width="500"/>  |
 | Multi-Stage Axial Acceleration           | <img src="images/Fig_Acceleration.png" width="500"/>|
