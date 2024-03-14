@@ -77,7 +77,7 @@ foamDictionary constant/transportProperties -entry sigma -set 		'21.0e-3'
 
 echo -e "   - Extract initial time ....."
 foamToVTK -time 0 				>> log.pre
-interFoamEHD -postProcess -time 0 	>> log.pre
+interIsoFoamEHD -postProcess -time 0 	>> log.pre
 
 echo -e "
 -------------------------------------------------------------------------------
