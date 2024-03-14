@@ -63,11 +63,11 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 1. Clone this repository to your local machine.
 2. Compile the solver using wmake. 
 3. Prepare your case setup, including mesh generation and boundary conditions.
-  3.1. Use the "CASE/CASE.m4" to set the geometric properties of the case.
-  3.2. The refinement level can be increase locally with the "Allrun.sh" file with the tool "refineMesh", must change the size in "system/refine/toposetDict(n)" corresponding.
-  3.3. Update the properties of the two-phase system changing the "constant/transportproperties" or in the "Allrun.sh" for the liquid phase.
+  3.1. Use the 'CASE/CASE.m4' to set the geometric properties of the case.
+  3.2. The refinement level can be increase locally with the 'Allrun.sh' file with the tool 'refineMesh', must change the size in 'system/refine/toposetDict(n)' corresponding.
+  3.3. Update the properties of the two-phase system changing the 'constant/transportproperties' or in the 'Allrun.sh' for the liquid phase.
 5. Run the simulation using standard OpenFOAM utilities.
-   5.1. "interIsoFoamEHD > log.file &"
+   5.1. 'interIsoFoamEHD > log.file &'
 7. Post-process the results using visualization tools compatible with OpenFOAM. (Try our Python scripts!)
 
 ### Meshing of the 2D Axisymmetric
@@ -76,17 +76,17 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 + Set the number of cells in the length and radial directions
 + Run blockMesh to generate a 2D "domain" mesh
 + Run extrudeMesh to convert the mesh into a 2D axisymmetric mesh with wedge
-  front and back patches (it is required to have the tool "wedgePlease" from https://github.com/krebeljk/wedgePlease)
+  front and back patches (it is required to have the tool 'wedgePlease' from https://github.com/krebeljk/wedgePlease)
 
 ### Initialisation
-+ In the field files in the "0" directory, set inlet values
-+ For example, in "0/U", set the inlet velocity Uinlet
-+ Set the electrohydrodynamic properties in "constant/transportProperties"
-+ The inlet flow rate and electric field can be easilly changed in the "Allrun.sh" using the "foamDictionary"
++ In the field files in the '0' directory, set inlet values
++ For example, in '0/U', set the inlet velocity Uinlet
++ Set the electrohydrodynamic properties in 'constant/transportProperties'
++ The inlet flow rate and electric field can be easilly changed in the 'Allrun.sh' using the 'foamDictionary'
 
 ### Output
 + Graph data of field values along the centreline are written to files in
-  "postProcessing/"
+  'postProcessing/'
 
 ## Cite
 [1] S. Cândido, J. C. Páscoa, On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets, International Journal of Engineering Science, 2023. https://doi.org/10.1016/j.ijengsci.2023.103947 \
