@@ -33,9 +33,16 @@ This repository hosts a solver implemented in OpenFOAM v1912 for simulating two-
     - **libimmiscibleIncompressibleTwoPhaseEHDMixture/**
 
 - **Taylor-Cone-Jet-EHD/**
-  - **2D_axisymmetric/**
-    - **case_files/**
-    - **system_files/**
+  - **Taylor-Cone-Jet-2D/**
+  - **Multi-Stage-Jet/**
+    - **0.org/**
+    - **constant/**
+    - **system/**
+    - **CASE/**
+       - CASE.m4
+       - blockMeshDict.m4
+       - setFieldsDict.m4
+    - Allrun.sh
   - **3D_mesh/**
     - **case_files/**
     - **system_files/**
