@@ -98,7 +98,7 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 Contributions to this project are welcome! Whether it's bug fixes, enhancements, or new features, feel free to submit pull requests or open issues to discuss potential improvements.
 
 ## Acknowledgments:
-This solver was developed by Sílvio Cândido [Sílvio Cândido](https://scholar.google.com/citations?user=SdNOWvEAAAAJ&hl=pt-PT) and [José C. Páscoa](https://scholar.google.com/citations?user=EBi13pcAAAAJ&hl=pt-PT) under the academic supervision of the University of Beira Interior, with support from the [C-MAST Center for Mechanical and Aerospace Science and Technologies](https://www.ubi.pt/entidade/C-MAST)  and the FCT Portuguese Foundation for Science and Technology.
+This solver was developed by Sílvio Cândido [Sílvio Cândido](https://scholar.google.com/citations?user=SdNOWvEAAAAJ&hl=pt-PT) and [José C. Páscoa](https://scholar.google.com/citations?user=EBi13pcAAAAJ&hl=pt-PT) under the academic supervision of the [Universidade da Beira Interior](https://www.ubi.pt), with support from the [C-MAST Center for Mechanical and Aerospace Science and Technologies](https://www.ubi.pt/entidade/C-MAST)  and the [FCT Portuguese Foundation for Science and Technology](https://www.fct.pt).
 
 ## License:
 This project is licensed under the [MIT License](LICENSE), allowing for both personal and commercial use with proper attribution.
