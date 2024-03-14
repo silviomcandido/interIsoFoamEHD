@@ -61,10 +61,14 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 
 + ## Usage:
 1. Clone this repository to your local machine.
-2. Compile the solver using the provided build scripts.
+2. Compile the solver using wmake. 
 3. Prepare your case setup, including mesh generation and boundary conditions.
-4. Run the simulation using standard OpenFOAM utilities.
-5. Post-process the results using visualization tools compatible with OpenFOAM. (Try our python scripts!)
+  3.1. Use the "CASE/CASE.m4" to set the geometric properties of the case.
+  3.2. The refinement level can be increase locally with the "Allrun.sh" file with the tool "refineMesh", must change the size in "system/refine/toposetDict(n)" corresponding.
+  3.3. Update the properties of the two-phase system changing the "constant/transportproperties" or in the "Allrun.sh" for the liquid phase.
+5. Run the simulation using standard OpenFOAM utilities.
+   5.1. "interIsoFoamEHD > log.file &"
+7. Post-process the results using visualization tools compatible with OpenFOAM. (Try our Python scripts!)
 
 ### Meshing of the 2D Axisymmetric
 + The blockMeshDict file contains a backgroundMesh subditionary
@@ -72,16 +76,17 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 + Set the number of cells in the length and radial directions
 + Run blockMesh to generate a 2D "domain" mesh
 + Run extrudeMesh to convert the mesh into a 2D axisymmetric mesh with wedge
-  front and back patches
+  front and back patches (it is required to have the tool "wedgePlease" from https://github.com/krebeljk/wedgePlease)
 
 ### Initialisation
-+ In the field files in the 0 directory, set inlet values
-+ For example, in 0/U, set the inlet velocity Uinlet
-+ Set the electrohydrodynamic properties in constant/transportProperties
++ In the field files in the "0" directory, set inlet values
++ For example, in "0/U", set the inlet velocity Uinlet
++ Set the electrohydrodynamic properties in "constant/transportProperties"
++ The inlet flow rate and electric field can be easilly changed in the "Allrun.sh" using the "foamDictionary"
 
 ### Output
 + Graph data of field values along the centreline are written to files in
-  postProcessing/graph
+  "postProcessing/"
 
 ## Cite
 [1] S. Cândido, J. C. Páscoa, On modal decomposition as surrogate for charge-conservative EHD modelling of Taylor Cone jets, International Journal of Engineering Science, 2023. https://doi.org/10.1016/j.ijengsci.2023.103947 \
@@ -92,8 +97,8 @@ Automated script using .m4 files to generate a 2D axis-symmetric or Full 3D simu
 ## Contribution:
 Contributions to this project are welcome! Whether it's bug fixes, enhancements, or new features, feel free to submit pull requests or open issues to discuss potential improvements.
 
-## Authors:
-This solver was developed by Sílvio Cândido [<img src="https://img.shields.io/badge/googlescholar-4285F4?&style=for-the-badge&logo=googlescholar&logoColor=white">](https://scholar.google.com/citations?user=SdNOWvEAAAAJ&hl=pt-PT) and José C. Páscoa [<img src="https://img.shields.io/badge/googlescholar-4285F4?&style=for-the-badge&logo=googlescholar&logoColor=white">](https://scholar.google.com/citations?user=EBi13pcAAAAJ&hl=pt-PT) under the academic supervision of the University of Beira Interior, with support from the C-MAST Center for Mechanical and Aerospace Science and Technologies and the FCT Portuguese Foundation for Science and Technology.
+## Acknowledgments:
+This solver was developed by Sílvio Cândido [Sílvio Cândido](https://scholar.google.com/citations?user=SdNOWvEAAAAJ&hl=pt-PT) and José C. Páscoa [<img src="https://img.shields.io/badge/googlescholar-4285F4?&style=for-the-badge&logo=googlescholar&logoColor=white">](https://scholar.google.com/citations?user=EBi13pcAAAAJ&hl=pt-PT) under the academic supervision of the University of Beira Interior, with support from the C-MAST Center for Mechanical and Aerospace Science and Technologies and the FCT Portuguese Foundation for Science and Technology.
 
 ## License:
 This project is licensed under the [MIT License](LICENSE), allowing for both personal and commercial use with proper attribution.
